@@ -26,6 +26,7 @@ https://github.com
 criar um repositório: curso-frontend
 
 ## Clonar o projeto
+git clone https://github.com/elisangelarocha78/curso-frontend.git
 
 ## Commits
 Informação de alteração
