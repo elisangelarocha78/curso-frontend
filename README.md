@@ -50,22 +50,28 @@ Fluxo do Git
 
 ## Branches
 
-são ramificações / versões paralelas
+São ramificações / versões paralelas
 
 - main / master (vai para produção quando o projeto é publicado)
 - DOO - Definition of done (critérios de aceite)
 - versionamento 1.0.0
-- criar uma branche: dev
-  git checkout -b dev (cria uma copia da branche "main" para nova branche "dev")
+
+Criar uma nova branche: dev
+
+- git checkout -b dev (cria uma copia da branche "main" para nova branche "dev")
+
+Siga os comandos:
 
 - $ git status
 - $ git add \*
 - $ git commit -m "atualiza descricao com git flow"
 - Antes de subir o código para branche master (main), verificar se tem alguma atualização nela:
 - $ git fetch --all
+- $ git merge main (Mescla de Branches)
+- $ git merge push
 
-## Merge
+Para trocar de Branche:
 
-Mescla de Branches
-
-- git merge main
+- $ git checkout main (para mudar de branche)
+- $ git merge push (Se der msg de erro ele vai sugerir o código seguinte:)
+- $ git push --set-upstream origin dev
