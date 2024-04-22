@@ -57,3 +57,15 @@ são ramificações / versões paralelas
 - versionamento 1.0.0
 - criar uma branche: dev
   git checkout -b dev (cria uma copia da branche "main" para nova branche "dev")
+
+- $ git status
+- $ git add \*
+- $ git commit -m "atualiza descricao com git flow"
+- Antes de subir o código para branche master (main), verificar se tem alguma atualização nela:
+- $ git fetch --all
+
+## Merge
+
+Mescla de Branches
+
+- git merge main
