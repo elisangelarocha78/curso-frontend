@@ -47,3 +47,13 @@ Informação de alteração
 ## GitFlow
 
 Fluxo do Git
+
+## Branches
+
+são ramificações / versões paralelas
+
+- main / master (vai para produção quando o projeto é publicado)
+- DOO - Definition of done (critérios de aceite)
+- versionamento 1.0.0
+- criar uma branche: dev
+  git checkout -b dev (cria uma copia da branche "main" para nova branche "dev")
